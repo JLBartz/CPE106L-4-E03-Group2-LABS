@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>350</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>main()
+--
+- Creates list of students
+- Sets random scores
+- Shuffles list
+- Sorts list by name
+- Displays all students</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>100</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+ - name: str                  
+ - scores: list 
+--
+ + __init__(name: str,        
+       number: int)           
+ + getName() : str            
+ + setScore(i: int,           
+	score: float)          
+ + getScore(i: int) : float   
+ + getAverage() : float       
+ + getHighScore() : float     
+ + __str__() : str            
+ + __eq__(other: Student) : bool 
+ + __lt__(other: Student) : bool 
+ + __ge__(other: Student) : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>280</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+</diagram>
