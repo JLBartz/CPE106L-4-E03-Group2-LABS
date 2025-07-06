@@ -1,0 +1,27 @@
+[{
+  "_id": 1001,
+  "name": "Multo",
+  "albumId": 101,
+  "mediaTypeId": 1,
+  "genreId": 1,
+  "milliseconds": 237000,
+  "unitPrice": 200
+},
+{
+  "_id": 1002,
+  "name": "Naiilang",
+  "albumId": 102,
+  "mediaTypeId": 1,
+  "genreId": 2,
+  "milliseconds": 247000,
+  "unitPrice": 100
+},
+{
+  "_id": 1003,
+  "name": "Heavy is the Crown",
+  "albumId": 103,
+  "mediaTypeId": 1,
+  "genreId": 3,
+  "milliseconds": 17700,
+  "unitPrice": 500
+}]
